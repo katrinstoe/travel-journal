@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+h1{
+  margin: 0px;
+}
+
+nav{
+  height: 70px;
+  display: flex;
+  padding: 5px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  background-color: #96c1e3;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+
+.nav--text{
+  color: white;
+}
+
+.nav--logo{
+  padding-right: 10px;
+}
+
+.header--img{
+  width: 100vw;
+}
+
+.list--object{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card--image{
+  box-sizing: border-box;
+  padding: 30px;
+  min-width: 300px;
+}
+
+.country--header{
+  display: flex;
+  align-items: center;
+}
+
+.country--name{
+  text-transform: uppercase;
+  color: #2B283A;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.location--link{
+  color: #918E9B;
+  padding-right: 5px;
+}
+
+.location--icon{
+  width: 13px;
+}
+
+.sight--name{
+  color: #2B283A;
+}
+.date{
+  font-weight: bold;
+}
+.description{
+  min-width: 70vw;
+}
